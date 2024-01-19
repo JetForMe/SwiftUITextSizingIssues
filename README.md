@@ -16,3 +16,7 @@ This sample project shows various view sizing issues with a simple SwiftUI view.
 	respected by the `.windowResizability(.contentSize)` modifier.
 * The only way I can get the text to properly wrap is to use `.fixedSize(horizontal: false, vertical: true)`,
 	which causes it to blow up the vertical spacing.
+
+## Initial Window Size
+
+![](Assets/InitialSizeIssue.png)

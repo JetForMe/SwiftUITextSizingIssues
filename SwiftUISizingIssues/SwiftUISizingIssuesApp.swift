@@ -15,6 +15,7 @@ struct SwiftUISizingIssuesApp: App
 		Window("SwiftUI is !Fun", id: "window")
 		{
 			ContentView()
+				.border(.yellow, width: 1.0)
 		}
 		.windowResizability(.contentSize)
 	}
@@ -35,6 +36,7 @@ ContentView: View
 				Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
 				""")
 //					.lineLimit(nil)
+					.border(.red, width: 1.0)
 					.fixedSize(horizontal: false, vertical: true)
 //					.frame(height: 100)
 					.font(.system(size: 24.0))
@@ -42,10 +44,12 @@ ContentView: View
 				
 //				DebugView()					Ignore this for now.
 			}
+			.border(.blue, width: 1.0)
 			.padding([.leading, .trailing])
 			
 			Image("keyboard")
 		}
+		.border(.green, width: 1.0)
 	}
 }
 

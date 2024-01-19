@@ -34,8 +34,8 @@ ContentView: View
 				"""
 				Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
 				""")
-					.lineLimit(nil)
-//					.fixedSize(horizontal: false, vertical: true)
+//					.lineLimit(nil)
+					.fixedSize(horizontal: false, vertical: true)
 //					.frame(height: 100)
 					.font(.system(size: 24.0))
 					.padding(.top)

@@ -20,3 +20,8 @@ This sample project shows various view sizing issues with a simple SwiftUI view.
 ## Initial Window Size
 
 ![](Assets/InitialSizeIssue.png)
+
+## Adding `.fixedSize()`
+
+![](Assets/WithFixedSize.png)
+

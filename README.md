@@ -3,6 +3,8 @@ This sample project shows various view sizing issues with a simple SwiftUI view.
 > **Note:** the scheme is set to “Launch without state restoration,” but it still
 seems to remember the window placement from the last run.
 
+Apple Feedback Reporter Issues: FB13551938, FB13455555
+
 ## Desired
 
 * The containing window should be fixed to encompass the contents as tightly
